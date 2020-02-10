@@ -20,7 +20,7 @@ class Messenger(object):
 
     def send(self, text, desp=''):
         if not text.strip():
-            logger.error('Text of message is empty!')
+            logger.error('Loading...')
             return
 
         now_time = str(datetime.datetime.now())
