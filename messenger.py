@@ -14,7 +14,7 @@ class Messenger(object):
 
     def __init__(self, sc_key):
         if not sc_key:
-            raise AsstException('sc_key can not be empty')
+            raise AsstException('sc_key can be empty')
 
         self.sc_key = sc_key
 
